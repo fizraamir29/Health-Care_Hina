@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Playwrite+BE+VLG:wght@100..400&display=swap');
+
+*::selection{
+    background-color: #097034;
+}
+
+h1{
+    font-family: "Pacifico", cursive;
+    font-size: 60px;
+    color: #097034;
+    padding-left: 80px;
+}
+h2{
+    font-family: "Pacifico", cursive;
+    color: rgb(250, 248, 248);
+    font-size: 50px;
+}
+
+#HeroSection p{
+    font-family:cursive;
+    font-size: 17px;
+    padding-left: 80px;
+    padding-top: 20px;
+    
+}
+header ul li a{
+    font-family: "Pacifico", cursive;
+    font-size: 18px;
+}
+
+.btn1{
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-left: 80px;
+    margin-top: 20px;
+    padding: 13px 30px;
+}
+
+.hero_section{
+    background-image: url(../Images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 460px;    
+}
+
+#About_Us p{
+    font-family:cursive;
+    font-size: 17px;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+#Services #card{
+    width: 340px;
+    height: 300px;
+    margin: auto;
+    background-image: url(../Images/Consulation.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    float: center;
+    overflow: hidden;
+}
+#Services #card1{
+    width: 340px;
+    height: 300px;
+    margin: auto;
+    background-image: url(../Images/MedicalDiagnosis.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    float: center;
+    overflow: hidden;
+}
+#Services #card2{
+    width: 340px;
+    height: 300px;
+    margin: auto;
+    background-image: url(../Images/treatment.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    float: center;
+    overflow: hidden;
+}
+#Services #card3{
+    width: 340px;
+    height: 300px;
+    margin: auto;
+    background-image: url(../Images/pregancy.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    float: center;
+    overflow: hidden;
+}
+#Services #card4{
+    width: 340px;
+    height: 300px;
+    margin: auto;
+    background-image: url(../Images/Pediatric.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    float: center;
+    overflow: hidden;
+}
+#Services #card5{
+    width: 340px;
+    height: 300px;
+    margin: auto;
+    background-image: url(../Images/Online\ Help.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    float: center;
+    overflow: hidden;
+}
+
+#Services #card:hover{
+    #content{
+        left: 0;
+        cursor: pointer;
+    }
+}
+#Services #card1:hover{
+    #content{
+        left: 0;
+        cursor: pointer;
+    }
+}
+#Services #card2:hover{
+    #content{
+        left: 0;
+        cursor: pointer;
+    }
+}
+#Services #card3:hover{
+    #content{
+        left: 0;
+        cursor: pointer;
+    }
+}
+#Services #card4:hover{
+    #content{
+        left: 0;
+        cursor: pointer;
+    }
+}
+#Services #card5:hover{
+    #content{
+        left: 0;
+        cursor: pointer;
+    }
+}
+#Services #content{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 27, 27, 0.473);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 110%;
+    transition: left 0.4s ease-in-out;
+}
+
+#Contact #icon{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #097034;
+    font-size: 40px;
+}
+#Contact p{
+    padding-top: 15px;
+}
+#Contact #form{
+    margin-top: 25px;
+    width: 100%;
+}
+#Contact h3{
+    font-family: "Pacifico", cursive;
+    font-size: 35px;
+    color: #097034;
+    padding-left: 0;
+    text-decoration: none;
+}
+
+#main2{
+    width: 100%;
+    height: 100vh; 
+    background-color: rgba(0, 0, 0, 0.514);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; 
+    
+}
+#main_div{
+    background-color: rgb(248, 247, 245);
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#main2 #main_div input{
+    width: 55%;
+    padding: 13px;
+    text-align: center;
+}
+#main2 #main_div h1{
+    color:#097034;
+}
+#main2 #main_div button{
+    background-color:#097034;
+    color: white;
+    padding: 10px 35px;
+    border-radius: none;
+    border: none;
+}
+#main2 #main_div button:hover{
+    background-color: white;
+    color:#097034;
+    border: 1px solid black;
+}
+@media (max-width: 992px) {
+    header .search{
+        display: none;
+    }
+    header .nav-item .btn .icon{
+        display: none;
+    }
+  }
+.navbar-toggler{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
